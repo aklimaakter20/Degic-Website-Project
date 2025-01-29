@@ -11,7 +11,7 @@ function Navbar() {
     const menuItems = ["About","Services", "Projects","Contacts"];
   return (
     <>
-      <AppBar elevation={0} className='Navbar' position='static' sx={{backgroundColor: "white" , color: "black"}}>
+      <AppBar elevation={0} className='Navbar' position='static' sx={{backgroundColor: "white" , color: "black" ,borderBottom: "1px solid rgb(249, 163, 146)"}}>
         <Toolbar>
             {
                 isMobile ? (
@@ -23,14 +23,14 @@ function Navbar() {
                 ): (
                     <>
                         <Typography sx={{flexGrow: 1}}>
-                            <img src="logo.png" alt="" />
+                            <img className='logo'  src="logo.png" alt="" />
                         </Typography>
                         {
                             menuItems.map((item)=>(
-                                <Button color= 'inherit' key= {item}>{item}</Button>
+                                <Button color= 'inherit'sx={{borderRadius: '10px' ,'&:hover':{backgroundColor: '#F03612', borderRadius: "10px", marginLeft: "20px", color: 'white', transitionDuration: "700"}}} key= {item}>{item}</Button>
                             ))
                         }
-                        <Button variant='outlined' sx={{color: '#2AB691', backgroundColor: 'white', borderRadius: '10px' ,'&:hover':{backgroundColor: '#2AB666', color: 'white'} }}>Sign Up</Button>
+                        <Button variant='outlined' sx={{color: 'black',marginLeft: "30px", backgroundColor: 'white', borderRadius: '10px' ,'&:hover':{backgroundColor: '#F03612', color: 'white'} }}>Sign Up</Button>
                     </>
                 )}
         </Toolbar>
