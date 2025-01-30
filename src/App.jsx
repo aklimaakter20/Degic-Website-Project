@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Presentation from './components/Presentation';
 import Work from './components/Work';
 import LogoSection from './components/LogoSection';
+import Illustration from './components/Illustration';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
   <Presentation/>
   <Work/>
   <LogoSection/>
+  <Illustration/>
     </>
   )
 }
