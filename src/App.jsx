@@ -7,6 +7,8 @@ import Presentation from './components/Presentation';
 import Work from './components/Work';
 import LogoSection from './components/LogoSection';
 import Illustration from './components/Illustration';
+import Work2 from './components/Work2';
+import Work3 from './components/Work3';
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
   <Work/>
   <LogoSection/>
   <Illustration/>
+  <Work2/>
+  <Work3/>
     </>
   )
 }
