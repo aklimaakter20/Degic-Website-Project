@@ -2,10 +2,10 @@ import React from "react";
 import { Button } from "@mui/material";
 function Hero() {
   return (
-    <section className="py-10 md:py-16">
+    <section className="py-10 md:py-16 px-12">
       
         <div className="flex flex-col-reverse md:flex-row items-center justify-center">
-          <div className="w-full md:w-[50%] px-12 mt-10">
+          <div className="w-full md:w-[50%] mt-10">
             <h2 className="text-xl md:text-2xl lg:text-5xl font-bold md:w-[90%] w-full md:text-start text-center leading-tight">
               Simply explained with illustrations
             </h2>

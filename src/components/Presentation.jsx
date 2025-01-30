@@ -28,9 +28,9 @@ function Presentation() {
     },
   ];
   return (
-    <section className="py-10 md:py-16">
+    <section className="py-10 md:py-16 px-12">
       <div className="container mx-auto">
-        <div className="bg-[#F9F9F9] flex flex-col items-center gap-5 md:gap-16 lg:flex-row mx-12  ">
+        <div className="bg-[#F9F9F9] flex flex-col items-center justify-center gap-5 md:gap-16 lg:flex-row  ">
           {/* left side */}
           <div className="grid grid-cols-1 md:grid-cols-2 md:w-full gap-6 lg:w-1/2">
             {Info.map((Info, index) => (
