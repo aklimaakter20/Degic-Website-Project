@@ -10,6 +10,7 @@ import Illustration from './components/Illustration';
 import Work2 from './components/Work2';
 import Work3 from './components/Work3';
 import Presentation2 from './components/Presentation2';
+import Blog from './components/Blog';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
   <Work2/>
   <Work3/>
   <Presentation2/>
+  <Blog/>
     </>
   )
 }
