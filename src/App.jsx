@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Presentation from './components/Presentation';
 import Work from './components/Work';
+import LogoSection from './components/LogoSection';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
   <Hero/>
   <Presentation/>
   <Work/>
+  <LogoSection/>
     </>
   )
 }
