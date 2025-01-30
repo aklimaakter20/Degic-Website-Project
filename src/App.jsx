@@ -9,6 +9,7 @@ import LogoSection from './components/LogoSection';
 import Illustration from './components/Illustration';
 import Work2 from './components/Work2';
 import Work3 from './components/Work3';
+import Presentation2 from './components/Presentation2';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
   <Illustration/>
   <Work2/>
   <Work3/>
+  <Presentation2/>
     </>
   )
 }
